@@ -1,0 +1,68 @@
+$date
+	Sun Feb 22 16:09:36 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb_and_mod $end
+$var wire 1 ! xor_res $end
+$var wire 1 " or_res $end
+$var wire 1 # and_res $end
+$var reg 1 $ a $end
+$var reg 1 % b $end
+$var reg 1 & exp_and $end
+$var reg 1 ' exp_or $end
+$var reg 1 ( exp_xor $end
+$scope module uut $end
+$var wire 1 $ a $end
+$var wire 1 # and_res $end
+$var wire 1 % b $end
+$var wire 1 " or_res $end
+$var wire 1 ! xor_res $end
+$upscope $end
+$scope begin $ivl_for_loop0 $end
+$var integer 32 ) i [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b0 )
+x(
+x'
+x&
+0%
+0$
+0#
+0"
+0!
+$end
+#1
+1"
+1!
+1%
+b1 )
+0(
+0'
+0&
+#2
+0%
+1$
+b10 )
+1(
+1'
+#3
+1#
+0!
+1%
+b11 )
+#4
+b100 )
+0(
+1&
